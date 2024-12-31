@@ -11,5 +11,7 @@ data class ModelProduk(
     val brand : String,
     val stock : Int,
     val thumbnail : String
-
 )
+
+
+

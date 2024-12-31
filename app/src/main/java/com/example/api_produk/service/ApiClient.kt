@@ -25,4 +25,8 @@ object ApiClient {
 
         return OkHttpClient.Builder().addInterceptor(interceptor).build()
     }
+
+    val produkService : ProdukService by lazy {
+        retrofit.create(ProdukService::class.java)
+    }
 }
